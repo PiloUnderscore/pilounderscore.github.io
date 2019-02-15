@@ -1,0 +1,35 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-color: black;
+  color: #b6b6b6;
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: none;
+  max-width: 704px;
+  margin: 0 auto;
+  padding: 64px
+}
+
+html {
+  background-image: url("/images/bg.png");
+  background-color: black
+}
+
+a {
+    color: white
+}
+
+/*navbar*/
+#navlist {position: relative; text-align: center; list-style: none; display: table; margin: 0 auto}
+#navlist li {width: 72px; float: left}
+#navlist li, #navlist a {height: 17px; display: block}
+
+#nav-home {background: url("/assets/images/navsprites.png") 0 0;}
+#nav-home a:hover {background: url("/assets/images/navsprites.png") 0 -17px;}
+#nav-archv {background: url("/assets/images/navsprites.png") -72px 0;}
+#nav-archv a:hover {background: url("/assets/images/navsprites.png") -72px -17px;}
